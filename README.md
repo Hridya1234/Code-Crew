@@ -1,39 +1,42 @@
-# [Project Name] 🎯
+Care - Elderly Care Support Network
+ 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Code Crew
+
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+Member 1: Hridya Varghese - Christ College of Engineering
+Member 2: Jovita Pious - Christ College of Engineering
+Member 3: Saniya Milton- Christ College of Engineering
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+Care is a website designed to connect caregivers with families in need of elderly care support. Our platform helps people find professional caregivers easily, ensuring quality care for the elderly in society. This is a step toward promoting a more supportive environment for elderly individuals.
+
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Elderly care is often overlooked, and finding reliable caregivers can be a daunting task. Families struggle to find trustworthy individuals who can offer the right support for their loved ones, especially in a world where time and resources are limited.
+
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+Our platform simplifies the process by offering an easy-to-use website where users can find professional caregivers. The goal is to ensure the elderly are well taken care of, and caregivers can find job opportunities in the field, bringing a sense of fulfillment and care to the community.
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Languages used: HTML, CSS, JavaScript
+Frameworks used: HTML,CSS,JavaScript(for frontend), Node.js (for backend)
+Tools used:  GitHub, Visual Studio Code
+
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+n/a
 
 ### Implementation
 For Software:
@@ -47,53 +50,21 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Team](Add photo of your team here)
+https://drive.google.com/drive/folders/1ABw6LD1wregfdUqt0TXSXjnaQcNy-8xW
 
 
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/drive/folders/1ABw6LD1wregfdUqt0TXSXjnaQcNy-8xW
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- saniya milton: frontend
+- jovita pious: backend,presentation
+- hridya varghese: frontend , backend
 
 ---
 Made with ❤️ at TinkerHub
