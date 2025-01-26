@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="C:\Users\user\Downloads\Screenshot_2025-01-25_182508-removebg-preview.png" alt="Home Instead Logo" class="logo">
+            <button class="call-button">Call us at +91 8547490471</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="123-456-7890">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="place">Place (State, District)</label>
+                <input type="text" id="place" name="place" required>
+
+                <!-- Removed anchor tag and just kept the submit button -->
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="reg.js"></script>
+</body>
+</html>

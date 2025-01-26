@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiles Page</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <img src="C:\Users\user\Downloads\Screenshot_2025-01-25_182508-removebg-preview.png" alt="Home Instead Logo" class="logo">
+            <button class="call-button">Call us at +91 8547490471</button>
+        </div>
+    </header>
+
+    <section class="filter-section">
+        <h2>Filter Profiles</h2>
+        <form id="filter-form">
+            <!-- Place Filter -->
+            <label for="place-filter">Select Place:</label>
+            <select id="place-filter">
+                <option value="">All Places</option>
+                <option value="New York, NY">New York, NY</option>
+                <option value="Los Angeles, CA">Los Angeles, CA</option>
+                <option value="Chicago, IL">Chicago, IL</option>
+                <option value="Miami, FL">Miami, FL</option>
+                <option value="Austin, TX">Austin, TX</option>
+                <option value="Seattle, WA">Seattle, WA</option>
+                <option value="San Francisco, CA">San Francisco, CA</option>
+                <option value="Boston, MA">Boston, MA</option>
+                <option value="Denver, CO">Denver, CO</option>
+                <option value="Houston, TX">Houston, TX</option>
+            </select>
+
+            <!-- Gender Filter -->
+            <label for="gender-filter">Select Gender:</label>
+            <div class="gender-filter">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+
+                <!-- <input type="radio" id="all-genders" name="gender" value="" checked>
+                <label for="all-genders">All Genders</label> -->
+            </div>
+        </form>
+    </section>
+
+    <!-- Profiles Section -->
+    <main>
+        <h2>Meet Our Profiles</h2>
+        <div class="profile-container">
+            <!-- Profile 1 -->
+            <div class="profile-card">
+                <h3>John Doe</h3>
+                <p><strong>Age:</strong> 28</p>
+                <p><strong>Place:</strong> New York, NY</p>
+                <p><strong>Experience:</strong> 5 years</p>
+                <p><strong>Expected Salary:</strong> $80,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+            <!-- Profile 2 -->
+            <div class="profile-card">
+                <h3>Jane Smith</h3>
+                <p><strong>Age:</strong> 32</p>
+                <p><strong>Place:</strong> Los Angeles, CA</p>
+                <p><strong>Experience:</strong> 8 years</p>
+                <p><strong>Expected Salary:</strong> $95,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+            <!-- Profile 3 -->
+            <div class="profile-card">
+                <h3>Mike Johnson</h3>
+                <p><strong>Age:</strong> 40</p>
+                <p><strong>Place:</strong> Chicago, IL</p>
+                <p><strong>Experience:</strong> 12 years</p>
+                <p><strong>Expected Salary:</strong> $120,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+            <!-- Profile 4 -->
+            <div class="profile-card">
+                <h3>Sarah Lee</h3>
+                <p><strong>Age:</strong> 25</p>
+                <p><strong>Place:</strong> Miami, FL</p>
+                <p><strong>Experience:</strong> 3 years</p>
+                <p><strong>Expected Salary:</strong> $70,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+            <!-- Profile 5 -->
+            <div class="profile-card">
+                <h3>Emily Clark</h3>
+                <p><strong>Age:</strong> 29</p>
+                <p><strong>Place:</strong> Austin, TX</p>
+                <p><strong>Experience:</strong> 6 years</p>
+                <p><strong>Expected Salary:</strong> $85,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+            <!-- Profile 6 -->
+            <div class="profile-card">
+                <h3>David Brown</h3>
+                <p><strong>Age:</strong> 35</p>
+                <p><strong>Place:</strong> Seattle, WA</p>
+                <p><strong>Experience:</strong> 10 years</p>
+                <p><strong>Expected Salary:</strong> $110,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+            <!-- Profile 7 -->
+            <div class="profile-card">
+                <h3>Amy White</h3>
+                <p><strong>Age:</strong> 24</p>
+                <p><strong>Place:</strong> San Francisco, CA</p>
+                <p><strong>Experience:</strong> 2 years</p>
+                <p><strong>Expected Salary:</strong> $65,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+            <!-- Profile 8 -->
+            <div class="profile-card">
+                <h3>James Green</h3>
+                <p><strong>Age:</strong> 45</p>
+                <p><strong>Place:</strong> Boston, MA</p>
+                <p><strong>Experience:</strong> 18 years</p>
+                <p><strong>Expected Salary:</strong> $150,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+            <!-- Profile 9 -->
+            <div class="profile-card">
+                <h3>Olivia Adams</h3>
+                <p><strong>Age:</strong> 38</p>
+                <p><strong>Place:</strong> Denver, CO</p>
+                <p><strong>Experience:</strong> 14 years</p>
+                <p><strong>Expected Salary:</strong> $130,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+            <!-- Profile 10 -->
+            <div class="profile-card">
+                <h3>Daniel Evans</h3>
+                <p><strong>Age:</strong> 27</p>
+                <p><strong>Place:</strong> Houston, TX</p>
+                <p><strong>Experience:</strong> 4 years</p>
+                <p><strong>Expected Salary:</strong> $75,000</p>
+                <button class="book-now-button">Book Now</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="profile.js"></script>
+</body>
+</html>
